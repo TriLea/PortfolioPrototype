@@ -1,41 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+        <title>Tristans Portfolio prototype</title>
+        
+    </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio Prototype</title>
-  <!--<link rel="stylesheet" href="./assets/css/reset.css" />-->
-  <link rel="stylesheet" href="./assets/css/style.css" />
-</head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="./assets/images/tristan_lea_paint_logo.png" alt="My name">
+            </div>
+            <button class="toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="Home" class="nav__link">Home</a></li>
+                    <li class="nav_item"><a href="Repos" class="nav__link">My Repos</a></li>
+                    <li class="nav_item"><a href="#" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-<body>
-    <div class="hero">
-        <nav>
-            <img src="images/tristan_lea_paint_logo.png" class="logo">
-            <ul>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">My Repositories</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>            
-        </nav>
-        <div class="Tristan_Lea">
-            <h1>I'm Tristan Lea</h1>
-            <p>This is my Prototype Porftolio
-                <br>
-                I'm a programming student, I have my general AA degree from bellevue with 
-                all my electives being math and computer science I work as a coding tutor and tech 
-                stem teacher at a afterschool program called iCode I am currently a studnet and 
-                University of Washington's Fullstack-Development coding Bootcamp
+        <!--introdcution-->
+        <section class="intro" id="Home">
+            <h1 class="section__title">
+                Hi I'm <strong>Tristan Lea</strong> and this is my about me. 
+            </h1>
+            <p class="subsection">I'm a programming student from Bellevue college with my AA, 
+                <br> Currently I am a student at UW's Fullstack Bootcamp.
+                <br> I know how to program but scripting is entriely new to me, I consider myself
+                <br> more self taught with the hopes of going to UW's Computer Science School for my Bachelors.
+            <img alt=""> <!--can add one-->
             </p>
-        <a href="a">DOWNLOAD CV</a>
-        </div>
-        <div class="images">
-            <img>
-            <img>
-        </div>
-    </div>
-</body>
-<footer></footer> 
+        </section>
+        <!--My repos-->
+        <section class="my_repos" id="Repos">
+            <h2 class="section_title">My favorite projects.</h2>
+            <div class="repos">
+                <div class="repo"> <!---->
+                    <h3></h3>
+                    <p></p>
+                </div>
+                <div class="repo"> <!---->
+                    <h3></h3>
+                    <p></p>
+                </div>
+                <div class="repo"> <!---->
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div> <!---->
 
+            <a href="github_stuff " class="github_stuff">Github stuff</a>
+        </section>
+
+        <!--Contact-->
+        <footer>
+            <section class="contacts" id="contacts">
+                <div>
+                    <h4 class="contact">
+                        <p></p>
+                    </h4> <!---->
+                </div>
+                <div>
+                    <h4 class="contact">
+                        <p></p>
+                    </h4> <!---->
+                </div>
+                <div>
+                    <h4 class="contact">
+                        <p></p>
+                    </h4> <!---->
+                </div>
+            </section>
+        </footer>
+    </body>
 </html>
