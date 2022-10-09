@@ -20,16 +20,29 @@ header
     color: #fff;
 }
 
-nav ul li
+header nav 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul
+{
+
+}
+
+header nav ul li
 {
     /*How do I change direction and give them pop out buttons*/
+    display: block;
     font-size: 4.2em; 
     padding: 1%;
     margin: 1%;
     color: #000000;
 }
 
-nav ul li:hover
+header nav ul li:hover
 {
     color: #fff;
 }
@@ -55,7 +68,7 @@ h3
 
 h3:hover
 {
-    color: aquamarine;
+    color: greenyellow;
 }
 h4 
     { 
