@@ -6,63 +6,84 @@
         <title>Tristans Portfolio prototype</title>
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/script.js" />
         
     </head>
 
+    <!--shopping list: 
+    - media queries 3 sizes of (?)(?)(1080x?)  // whats normal??
+    - working nav buttons that pull you to the link location
+    - mobile first size
+    - multiple pages for each nav button directed area
+    - working nav buttons that pull you to the link location
+    - parallax svg backgroud because I really want to :)
+    -->
+
     <!--https://github.com/TriLea-->
+    <!--https://www.linkedin.com/in/tristan-lea-710002230/-->
 
     <body>
         <header>
-            <div class="logo">
-                <img src="./assets/images/tristan_lea_paint_logo.png" alt="My name">
+            <div id="navBar_Image">
+                <img src="./assets/images/tristan_lea_paint_logo.png" alt="My name handwritten">
             </div>
             <nav class="nav">
                 <ul class="nav_list">
-                    <li class="nav_item"><a href="Home" class="nav__link">Home</a></li>
-                    <li class="nav_item"><a href="Repos" class="nav__link">My Repos</a></li>
-                    <li class="nav_item"><a href="contact" class="nav__link">Contact</a></li>
+                    <li class="nav_item"><a href="Home" class="nav_link">Home</a></li>
+                    <li class="nav_item"><a href="Repos" class="nav_link">My Repos</a></li>
+                    <li class="nav_item"><a href="contact" class="nav_link">Contact</a></li>
+                    <!--I used id tags on each of the three because I attempted to make these link to there respective sections-->
                 </ul>
             </nav>
         </header>
 
         <!--introdcution-->
-        <section class="intro" id="Home">
-            <h1 class="section__title">
+        <section class="section" id="Home">
+            <h1>
                 Hi I'm <strong>Tristan Lea</strong> and this is my project portfolio. 
             </h1>
-            <p class="subsection">I'm a programming student from Bellevue college with my AA, 
+            <p class="subSection">I'm a programming student from Bellevue college with my AA, 
                 <br> Currently I am a student at UW's Fullstack Bootcamp.
                 <br> I'm developing my programming skills with
                 <br> the hopes of find coding work to sustain my goal of
                 <br> going to UW's Computer Science School for my Bachelors.
-            <img alt=""> <!--can add one-->
+
+            <img alt="a pic of me"> <!--take photo-->
             </p>
         </section>
 
         <!--My repos-->
+        <!--I wish to style these is a grid 3 across and infinitely down as tiles for each project with somekind of thumb nil-->
         <section class="my_repos" id="Repos">
-            <h2 class="section_title">My favorite projects.</h2>
+            <h2>My favorite projects.</h2>
             <div class="repos">
                 <div class="repo"> <!---->
-                    <h3><a href="https://github.com/TriLea/assemblyHelloWorld" class="github_stuff">A "Hello World" in assembly</a></h3>
+                    <h3><a class="aLink" href="https://github.com/TriLea/assemblyHelloWorld" class="github_stuff">A "Hello World" in assembly</a></h3>
                     <p>I made this with my grandpa for fun at the end of my C++/C class</p>
                 </div>
                 <div class="repo"> <!---->
-                    <h3><a href="https://github.com/TriLea/C_plus_plus" class="github_stuff">C++/C projects</a></h3>
+                    <h3><a class="aLink" href="https://github.com/TriLea/C_plus_plus" class="github_stuff">C++/C projects</a></h3>
                     <p>A repository full of my projets from my C++/C class</p>
                 </div>
                 <div class="repo"> <!---->
-                    <h3><a href="https://github.com/TriLea/Tic-Tac-Toe" class="github_stuff">A Tic Tac Toe program written in java</a></h3>
+                    <h3><a class="aLink" href="https://github.com/TriLea/Tic-Tac-Toe" class="github_stuff">A Tic Tac Toe program written in java</a></h3>
                     <p>I wrote this for my final project in my first Computer Science class</p>
                 </div>
-            </div> <!--A collection of links and section to store my list my projects in-->
+            </div>
         </section>
 
+        <!--link to group project https://github.com/justinaypangit/writersBlock-->
+
         <!--Contact-->
-        <footer>
+        <footer class="section">
             <section class="contact" id="contact">
-                <a href="Tristan_lea@outlook.com"></a>
+                <div>
+                    <a class="aLink" href="Tristan_lea@outlook.com"></a>
+                    <a class="aLink" href="https://www.linkedin.com/in/tristan-lea-710002230/"></a>
+                    <a class="aLink" href="https://github.com/TriLea"></a>
+                </div>
             </section>
         </footer>
+
     </body>
 </html>

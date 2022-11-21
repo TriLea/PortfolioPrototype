@@ -1,83 +1,60 @@
-body 
-    { 
-    font: 62.5%/1.5  "Verdana", "sans-serif"; 
-    background: url() repeat; 
-    color: #000000;     
-    text-align:center; 
-    display: flex;
-    flex-direction: column;
-    line-height: 1.3;
-}
-
-header 
+:root
 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1%;
-    padding: 1%;
-    background-color: whitesmoke;
-    color: #fff;
-}
-
-header nav 
-{
-    list-style-type: none;
     margin: 0;
-    padding: 0;
-}
+    align-items: center;
+    border: 0;
 
-header nav ul
+}
+/*I feel overwhelmed by css*/
+/*I only have class names here of thing I used, idk about the reset, I got it off the internet*/
+
+#navBar_Image
 {
-
+    /*Top left, fits into the nav bar*/
 }
 
-header nav ul li
+nav
 {
-    /*How do I change direction and give them pop out buttons*/
-    display: block;
-    font-size: 4.2em; 
-    padding: 1%;
-    margin: 1%;
-    color: #000000;
+    /*does this come with preset attributes because its something like a keyword?*/
 }
 
-header nav ul li:hover
+navList
 {
-    color: #fff;
+    /*idk*/
 }
-h1 
-    { 
-    font-size: 4.2em; 
-    padding: 1%;
-    margin: 1%;
-} 
-     
-h2 
-    { 
-    font-size: 2.0em;     
-} 
-     
-h3 
-    { 
-    color: #fff;
-    font-size: 1.8em; 
-    padding: 0.2%;
-    margin: 0.2%;
-} 
 
-h3:hover
+navLink
 {
-    color: greenyellow;
+    /*wish to also make these styled buttons*/
 }
-h4 
-    { 
-    font-size: 1.6em;     
-} 
-     
-p 
-    { 
-    font-size: 2.0em;
-    padding: 0.5%;
-    margin: 0.5%;   
+
+section
+{
+    /*Bar of text*/
+}
+
+subSection
+{
+    /*the text inside the Bar*/
+}
+
+myRepos
+{
+    /*A collection of repo tiles*/
+    /*grid, flex horizontal*/
+}
+
+repos
+{
+    /*The tiles themselves I wish to add a thumbnail of somekind*/
+}
+
+contact
+{
+    /*just a container for aLinks?*/
+}
+
+alink
+{
+    /*contact links urls*/
 }
