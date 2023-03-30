@@ -17,8 +17,9 @@
         </div>
         <nav class="nav">
             <ul>
-                <button type="button" href="Home" onClick="document.getElementById('Home').scrollIntoView();">Home</button> <!-- needs to take you to the top-->
-                <button type="button" href="Repos" onClick="document.getElementById('Repos').scrollIntoView();">My Repos</button>
+                <!--<button type="button" topFunction()" id="myBtn" title="Go to top">Home</button>-->
+                <button type="button" href="Home" onClick="document.getElementById('navBar_Image').scrollIntoView();">Home</button> 
+                <button type="button" href="Repos" onClick="document.getElementById('Repos').scrollIntoView();">My repositories</button>
                 <button type="button" href="Contact" onClick="document.getElementById('Contact').scrollIntoView();">Contact</button>
             </ul>
         </nav>
@@ -41,32 +42,34 @@
 
     <br><br>
 
-    <!--My repos-->
+    <!--Repository section-->
     <section id="Repos">
         <h2>My favorite projects.</h2>
         <div class="repos">
-            <div class="repo"> <!---->
+            <div class="repo">
                 <h3><a class="aLink" href="https://github.com/TriLea/assemblyHelloWorld" class="github_stuff">A "Hello World" in assembly</a></h3>
                 <p>I made this with my grandpa for fun at the end of my C++/C class</p>
             </div>
-            <div class="repo"> <!---->
+            <div class="repo">
                 <h3><a class="aLink" href="https://github.com/TriLea/C_plus_plus" class="github_stuff">C++/C projects</a></h3>
                 <p>A repository full of my projets from my C++/C class</p>
             </div>
-            <div class="repo"> <!---->
+            <div class="repo">
                 <h3><a class="aLink" href="https://github.com/TriLea/Tic-Tac-Toe" class="github_stuff">A Tic Tac Toe program written in java</a></h3>
                 <p>I wrote this for my final project in my first Computer Science class</p>
             </div>
         </div>
     </section>
 
-    <!--Contact-->
+    <!--Contact section-->
+    <br><br>
+
     <footer>
         <section class="contact" id="Contact">
             <div>
-                <a class="aLink" href="Tristan_lea@outlook.com"></a>
-                <a class="aLink" href="https://www.linkedin.com/in/tristan-lea-710002230/"></a>
-                <a class="aLink" href="https://github.com/TriLea"></a>
+                <h3><a class="aLink" href="mailto: Tristan_lea@outlook.com">Email</a></h3>
+                <h3><a class="aLink" href="https://www.linkedin.com/in/tristan-lea-710002230/">LinkedIN</a></h3>
+                <h3><a class="aLink" href="https://github.com/TriLea">Github</a></h3>
             </div>
         </section>
     </footer>

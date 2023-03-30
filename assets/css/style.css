@@ -1,21 +1,69 @@
 .body
 {
-    /*background color*/
-    /*font*/
-    /*font size*/
-    /*font color*/
+    /*main container for the page*/
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    /*todos:*/
+    /*background color*/
+    background-color: #000000;
+    /*font*/
+    /*font size*/
+    /*font color*/
+    color: #FFFFFF;
 }
 
 .repos
 {
-
+    /*the container for my repostiories*/
 }
 
 .contact
 {
+    /*the container for my contact information*/
+
+}
+
+.aLink
+{
+    /*standard links*/
+    color: #FF5D73;
+}
+
+.subSection
+{
+    /*the container for my sub sections*/
     
+}
+
+button
+{
+    /*the buttons*/
+    background-color: #7C7A7A;
+}
+
+@media screen and (width: 300px) 
+{
+    body 
+    {
+        font-size: 13px;
+    }
+}
+
+@media screen and (width: 600px) 
+{
+    body 
+    {
+        font-size: 16px;
+    }
+}
+
+@media screen and (width: 900px) 
+{
+    body 
+    {
+        font-size: 19px;
+    }
 }
