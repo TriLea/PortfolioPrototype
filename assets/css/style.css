@@ -1,57 +1,21 @@
-:root
+.body
 {
-    margin: 0;
+    /*background color*/
+    /*font*/
+    /*font size*/
+    /*font color*/
+    display: flex;
     align-items: center;
-    border: 0;
+    justify-content: center;
+    flex-direction: column;
 }
 
-#navBar_Image
+.repos
 {
-    /*Top left, fits into the nav bar*/
+
 }
 
-nav
+.contact
 {
-    /*does this come with preset attributes because its something like a keyword?*/
-}
-
-navList
-{
-    /*idk*/
-}
-
-navLink
-{
-    /*wish to also make these styled buttons*/
-}
-
-section
-{
-    /*Bar of text*/
-}
-
-subSection
-{
-    /*the text inside the Bar*/
-}
-
-myRepos
-{
-    /*A collection of repo tiles*/
-    /*grid, flex horizontal*/
-}
-
-repos
-{
-    /*The tiles themselves I wish to add a thumbnail of somekind*/
-}
-
-contact
-{
-    /*just a container for aLinks?*/
-}
-
-alink
-{
-    /*contact links urls*/
+    
 }

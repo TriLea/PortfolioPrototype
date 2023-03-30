@@ -9,20 +9,22 @@
     
 </head>
 
-<body>
+<body class="body">
     <header>
         <div id="navBar_Image">
             <img alt="a pic of me" src="./assets/images/me.png",width="80", height="80">
             <img src="./assets/images/tristan_lea_paint_logo.png" alt="My name handwritten">
         </div>
         <nav class="nav">
-            <ul class="nav_list">
-                <li class="nav_item"><a href="Home" class="nav_link">Home</a></li>
-                <li class="nav_item"><a href="Repos" class="nav_link">My Repos</a></li>
-                <li class="nav_item"><a href="contact" class="nav_link">Contact</a></li>
+            <ul>
+                <button type="button" href="Home" onClick="document.getElementById('Home').scrollIntoView();">Home</button> <!-- needs to take you to the top-->
+                <button type="button" href="Repos" onClick="document.getElementById('Repos').scrollIntoView();">My Repos</button>
+                <button type="button" href="Contact" onClick="document.getElementById('Contact').scrollIntoView();">Contact</button>
             </ul>
         </nav>
     </header>
+
+    <br><br>
 
     <!--introdcution-->
     <section class="section" id="Home">
@@ -33,12 +35,14 @@
             <br> Currently I am a student at UW's Fullstack Bootcamp.
             <br> I'm developing my programming skills with
             <br> the hopes of find coding work to sustain my goal of
-            <br> going to UW's Computer Science School for my Bachelors.
+            <br> going to Lake Washington Tech's Computer Science School for my Bachelors.
         </p>
     </section>
 
+    <br><br>
+
     <!--My repos-->
-    <section class="my_repos" id="Repos">
+    <section id="Repos">
         <h2>My favorite projects.</h2>
         <div class="repos">
             <div class="repo"> <!---->
@@ -56,11 +60,9 @@
         </div>
     </section>
 
-    <!--link to group project https://github.com/justinaypangit/writersBlock-->
-
     <!--Contact-->
-    <footer class="section">
-        <section class="contact" id="contact">
+    <footer>
+        <section class="contact" id="Contact">
             <div>
                 <a class="aLink" href="Tristan_lea@outlook.com"></a>
                 <a class="aLink" href="https://www.linkedin.com/in/tristan-lea-710002230/"></a>
